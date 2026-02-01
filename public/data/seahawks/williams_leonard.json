@@ -1,0 +1,22 @@
+{
+  "fullName": "Leonard Williams",
+  "position": "Defensive Tackle",
+  "jerseyNumber": 99,
+  "height": "6-5",
+  "weight": 310,
+  "age": 31,
+  "birthdate": "June 20, 1994",
+  "experience": 11,
+  "college": "USC",
+  "season2025Stats": {
+    "soloTackles": 32,
+    "sacks": 7,
+    "forcedFumbles": 0,
+    "interceptions": 0
+  },
+  "careerHighlights": [
+    "Finished 2024 ranked 1st among NFL interior linemen in sacks (11.0) and tackles for loss (16)",
+    "First Seattle player since 2018 with double-digit sacks",
+    "11 years of NFL experience"
+  ]
+}

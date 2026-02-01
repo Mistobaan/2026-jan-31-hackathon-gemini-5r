@@ -1,0 +1,22 @@
+{
+  "fullName": "Sam Darnold",
+  "position": "Quarterback",
+  "jerseyNumber": 14,
+  "height": "6-3",
+  "weight": 225,
+  "age": 28,
+  "birthdate": "June 5, 1997",
+  "experience": 8,
+  "college": "USC",
+  "season2025Stats": {
+    "touchdowns": 25,
+    "interceptions": 14,
+    "passingYards": 4048,
+    "rating": 99.11
+  },
+  "careerHighlights": [
+    "Pro Bowl honors in 2024 with Minnesota",
+    "4,319 passing yards with 35 touchdowns in 2024",
+    "Signed by Seattle as free agent on March 13, 2025"
+  ]
+}

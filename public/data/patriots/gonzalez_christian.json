@@ -1,0 +1,31 @@
+{
+  "firstName": "Christian",
+  "lastName": "Gonzalez",
+  "fullName": "Christian Gonzalez",
+  "position": "CB",
+  "number": 6,
+  "height": "73 inches",
+  "heightFormatted": "6'1\"",
+  "weight": "201 lbs",
+  "age": 22,
+  "experience": "3 years",
+  "college": "Oregon",
+  "draftInfo": "2023 NFL Draft, Round 1, Pick 17",
+  "team": "New England Patriots",
+  "season": 2025,
+  "stats": {
+    "tackles": 69,
+    "soloTackles": 54,
+    "passDeflections": 10,
+    "touchdownsAllowed": 2,
+    "gamesPlayed": 14
+  },
+  "accolades": [
+    "2026 Pro Bowl (First Pro Bowl selection)",
+    "First Patriots DB with Pro Bowl honors since J.C. Jackson (2021)",
+    "AFC Championship interception vs Denver Broncos"
+  ],
+  "highlights": [
+    "Crucial late-game interception in AFC Championship advancing Patriots to Super Bowl LX"
+  ]
+}

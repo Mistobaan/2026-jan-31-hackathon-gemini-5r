@@ -1,0 +1,23 @@
+{
+  "firstName": "Hunter",
+  "lastName": "Henry",
+  "fullName": "Hunter Henry",
+  "position": "TE",
+  "number": 85,
+  "height": "77 inches",
+  "heightFormatted": "6'5\"",
+  "weight": "249 lbs",
+  "age": 30,
+  "experience": "10 years",
+  "college": "Arkansas",
+  "team": "New England Patriots",
+  "season": 2025,
+  "stats": {
+    "receptions": 60,
+    "receivingYards": 768,
+    "touchdowns": 7
+  },
+  "accolades": [
+    "2025 Walter Payton NFL Man of the Year Nominee"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "firstName": "Carlton",
+  "lastName": "Davis",
+  "fullName": "Carlton Davis III",
+  "position": "CB",
+  "number": 7,
+  "height": "73 inches",
+  "heightFormatted": "6'1\"",
+  "weight": "206 lbs",
+  "age": 28,
+  "experience": "7 years",
+  "college": "Auburn",
+  "team": "New England Patriots",
+  "season": 2025,
+  "contractInfo": "3-year, $60 million (signed March 13, 2025)",
+  "stats": {
+    "tackles": 69,
+    "soloTackles": 39,
+    "passDeflections": 10,
+    "gamesPlayed": 17,
+    "gamesStarted": 17
+  }
+}

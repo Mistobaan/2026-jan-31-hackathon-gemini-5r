@@ -1,0 +1,24 @@
+{
+  "firstName": "Robert",
+  "lastName": "Spillane",
+  "fullName": "Robert Spillane",
+  "position": "LB",
+  "number": 14,
+  "height": "73 inches",
+  "heightFormatted": "6'1\"",
+  "weight": "230 lbs",
+  "age": 29,
+  "experience": "7 years",
+  "college": "Western Michigan",
+  "team": "New England Patriots",
+  "season": 2025,
+  "contractInfo": "Signed as unrestricted free agent from Las Vegas (March 13, 2025)",
+  "stats": {
+    "soloTackles": 48,
+    "sacks": 1,
+    "interceptions": 2,
+    "forcedFumbles": 1,
+    "gamesPlayed": 13
+  },
+  "notes": "Replaced Ja'Whaun Bentley as middle linebacker; ranked 5th among NFL linebackers with 84.3 PFF grade in early October"
+}

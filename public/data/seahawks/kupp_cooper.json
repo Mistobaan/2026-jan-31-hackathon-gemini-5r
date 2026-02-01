@@ -1,0 +1,23 @@
+{
+  "fullName": "Cooper Kupp",
+  "position": "Wide Receiver",
+  "jerseyNumber": 10,
+  "height": "6-1",
+  "weight": 205,
+  "age": 32,
+  "birthdate": "June 15, 1993",
+  "experience": 9,
+  "college": "Eastern Washington",
+  "season2025Stats": {
+    "receptions": 47,
+    "receivingYards": 593,
+    "average": 12.62,
+    "touchdowns": 2
+  },
+  "careerHighlights": [
+    "Super Bowl LVI MVP",
+    "2021 Receiving Triple Crown winner (145 rec, 1,947 yards, 16 TDs)",
+    "4th player in NFL history to win Receiving Triple Crown",
+    "Signed with Seattle as free agent on March 18, 2025"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "fullName": "Devon Witherspoon",
+  "position": "Cornerback",
+  "jerseyNumber": 21,
+  "height": "6-0",
+  "weight": 185,
+  "age": 25,
+  "birthdate": "December 11, 2000",
+  "experience": 3,
+  "college": "Illinois",
+  "draftInfo": "2023 NFL Draft - 1st round, 5th overall",
+  "season2025Stats": {
+    "soloTackles": 48,
+    "sacks": 0.5,
+    "forcedFumbles": 0,
+    "interceptions": 1
+  },
+  "careerHighlights": [
+    "Pro Bowl selections: 2023, 2024, 2025",
+    "5th Seahawks player to begin career with consecutive Pro Bowl nominations",
+    "97-yard interception return TD as rookie",
+    "Ranked 5th in NFL with 16 passes defensed as rookie"
+  ]
+}

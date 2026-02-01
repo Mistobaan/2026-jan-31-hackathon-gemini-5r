@@ -1,0 +1,16 @@
+{
+  "firstName": "Rhamondre",
+  "lastName": "Stevenson",
+  "fullName": "Rhamondre Stevenson",
+  "position": "RB",
+  "number": 38,
+  "height": "72 inches",
+  "heightFormatted": "6'0\"",
+  "weight": "227 lbs",
+  "age": 26,
+  "experience": "5 years",
+  "college": "Oklahoma",
+  "team": "New England Patriots",
+  "season": 2025,
+  "notes": "Starting running back; suffered toe injury in Week 8 and missed three games"
+}

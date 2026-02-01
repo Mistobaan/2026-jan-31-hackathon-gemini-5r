@@ -1,0 +1,24 @@
+{
+  "firstName": "DeMario",
+  "lastName": "Douglas",
+  "fullName": "DeMario Douglas",
+  "position": "WR",
+  "number": 3,
+  "height": "68 inches",
+  "heightFormatted": "5'8\"",
+  "weight": "192 lbs",
+  "age": 25,
+  "experience": "3 years",
+  "college": "Liberty",
+  "draftInfo": "2023 NFL Draft, Round 6, Pick 210",
+  "team": "New England Patriots",
+  "season": 2025,
+  "stats": {
+    "receptions": 27,
+    "receivingYards": 402,
+    "touchdowns": 3
+  },
+  "highlights": [
+    "Week 9 career-high: 100 receiving yards vs Atlanta Falcons"
+  ]
+}

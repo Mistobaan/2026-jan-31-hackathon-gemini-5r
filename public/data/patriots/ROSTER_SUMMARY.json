@@ -1,0 +1,133 @@
+{
+  "team": "New England Patriots",
+  "season": 2025,
+  "record": "14-3 (AFC East Champions)",
+  "headCoach": "Mike Vrabel",
+  "offensiveCoordinator": "Josh McDaniels",
+  "superBowl": "Super Bowl LX",
+  "totalPlayers": 16,
+  "playersByPosition": {
+    "quarterbacks": [
+      {
+        "name": "Drake Maye",
+        "number": 10,
+        "file": "maye_drake"
+      },
+      {
+        "name": "Joshua Dobbs",
+        "number": 11,
+        "file": "dobbs_joshua"
+      }
+    ],
+    "runningBacks": [
+      {
+        "name": "Rhamondre Stevenson",
+        "number": 38,
+        "file": "stevenson_rhamondre"
+      },
+      {
+        "name": "TreVeyon Henderson",
+        "number": 32,
+        "file": "henderson_treveyon"
+      }
+    ],
+    "wideReceivers": [
+      {
+        "name": "Stefon Diggs",
+        "number": 8,
+        "file": "diggs_stefon"
+      },
+      {
+        "name": "Kayshon Boutte",
+        "number": 9,
+        "file": "boutte_kayshon"
+      },
+      {
+        "name": "DeMario Douglas",
+        "number": 3,
+        "file": "douglas_demario"
+      },
+      {
+        "name": "Mack Hollins",
+        "number": 13,
+        "file": "hollins_mack"
+      }
+    ],
+    "tightEnds": [
+      {
+        "name": "Hunter Henry",
+        "number": 85,
+        "file": "henry_hunter"
+      },
+      {
+        "name": "Austin Hooper",
+        "number": 81,
+        "file": "hooper_austin"
+      }
+    ],
+    "defensiveLine": [
+      {
+        "name": "Christian Barmore",
+        "number": 90,
+        "position": "DT",
+        "file": "barmore_christian"
+      },
+      {
+        "name": "Keion White",
+        "number": 99,
+        "position": "DE",
+        "file": "white_keion"
+      }
+    ],
+    "linebackers": [
+      {
+        "name": "Robert Spillane",
+        "number": 14,
+        "file": "spillane_robert"
+      }
+    ],
+    "defensiveBacks": [
+      {
+        "name": "Carlton Davis III",
+        "number": 7,
+        "position": "CB",
+        "file": "davis_carlton"
+      },
+      {
+        "name": "Christian Gonzalez",
+        "number": 6,
+        "position": "CB",
+        "file": "gonzalez_christian"
+      },
+      {
+        "name": "Kyle Dugger",
+        "number": 23,
+        "position": "SAF",
+        "file": "dugger_kyle"
+      }
+    ]
+  },
+  "keyStats": {
+    "divisionTitle": "First AFC East championship since 2019",
+    "playoffAppearance": "First playoff appearance since 2021",
+    "superBowlAppearance": "Super Bowl LX",
+    "proBowlers": [
+      "Drake Maye (QB)",
+      "Stefon Diggs (WR)",
+      "Christian Gonzalez (CB)"
+    ]
+  },
+  "notableAchievements": [
+    "Drake Maye led NFL in passer rating (113.5) and completion percentage (72%)",
+    "Stefon Diggs: First Patriots WR with 1,000+ yards since Julian Edelman (2019)",
+    "Christian Gonzalez: Crucial AFC Championship interception vs Denver",
+    "14-3 record: Best Patriots season since 2019"
+  ],
+  "fileNamingConvention": "lastname_firstname",
+  "filesPerPlayer": {
+    "photo": "lastname_firstname.png",
+    "data": "lastname_firstname.json"
+  },
+  "dataSource": "Official Patriots.com 2025 roster and NFL.com",
+  "created": "2026-01-31"
+}

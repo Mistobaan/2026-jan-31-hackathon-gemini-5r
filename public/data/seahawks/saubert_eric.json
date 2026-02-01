@@ -1,0 +1,24 @@
+{
+  "fullName": "Eric Saubert",
+  "position": "Tight End",
+  "jerseyNumber": 81,
+  "height": "6-5",
+  "weight": 253,
+  "age": 31,
+  "birthdate": "May 9, 1994",
+  "experience": 8,
+  "college": "Drake",
+  "draftInfo": "2017 NFL Draft - 5th round, 174th overall by Atlanta",
+  "season2025Stats": {
+    "receptions": 4,
+    "receivingYards": 31,
+    "average": 7.75,
+    "touchdowns": 0
+  },
+  "careerHighlights": [
+    "190 receptions for 2,253 yards and 21 TDs in college career",
+    "Played for 8 NFL teams throughout career",
+    "Appeared in 14 games as rookie in 2017",
+    "Signed with Seattle as free agent on March 24, 2025"
+  ]
+}

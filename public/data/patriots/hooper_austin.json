@@ -1,0 +1,15 @@
+{
+  "firstName": "Austin",
+  "lastName": "Hooper",
+  "fullName": "Austin Hooper",
+  "position": "TE",
+  "number": 81,
+  "height": "76 inches",
+  "heightFormatted": "6'4\"",
+  "weight": "254 lbs",
+  "age": 30,
+  "experience": "10 years",
+  "college": "Stanford",
+  "team": "New England Patriots",
+  "season": 2025
+}

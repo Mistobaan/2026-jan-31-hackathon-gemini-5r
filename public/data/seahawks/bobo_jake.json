@@ -1,0 +1,30 @@
+{
+  "fullName": "Jake Bobo",
+  "position": "Wide Receiver",
+  "jerseyNumber": 19,
+  "height": "6-4",
+  "weight": 207,
+  "age": 27,
+  "birthdate": "August 4, 1998",
+  "experience": 3,
+  "college": "UCLA",
+  "season2025Stats": {
+    "receptions": 2,
+    "receivingYards": 20,
+    "average": 10.0,
+    "touchdowns": 0
+  },
+  "careerStats": {
+    "games": 46,
+    "gamesStarted": 3,
+    "receptions": 34,
+    "receivingYards": 323,
+    "average": 9.5,
+    "touchdowns": 3
+  },
+  "careerHighlights": [
+    "Signed as undrafted free agent on May 12, 2023",
+    "First pair of rookie WRs (with JSN) to record TD reception in same game in franchise history (Week 7, 2023)",
+    "3 receiving TDs, 1 rushing TD in career"
+  ]
+}

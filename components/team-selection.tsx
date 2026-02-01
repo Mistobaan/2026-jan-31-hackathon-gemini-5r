@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { teams, type Team } from "@/lib/teams-data"
 import { cn } from "@/lib/utils"
 
@@ -42,11 +43,18 @@ export function TeamSelection({ selectedTeam, onSelectTeam }: TeamSelectionProps
             </div>
             
             <div className="relative flex flex-col items-center gap-4">
-              <div 
-                className="flex h-24 w-24 items-center justify-center rounded-full"
+              <div
+                className="flex h-24 w-24 items-center justify-center rounded-full relative"
                 style={{ backgroundColor: `${team.secondaryColor}30` }}
               >
-                <span className="text-4xl font-bold text-white">{team.name.charAt(0)}</span>
+                <Image
+                  src={team.logo}
+                  alt={`${team.name} logo`}
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  priority
+                />
               </div>
               
               <div className="text-center">

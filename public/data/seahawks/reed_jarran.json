@@ -1,0 +1,24 @@
+{
+  "fullName": "Jarran Reed",
+  "position": "Nose Tackle",
+  "jerseyNumber": 90,
+  "height": "6-3",
+  "weight": 315,
+  "age": 33,
+  "birthdate": "December 16, 1992",
+  "experience": 10,
+  "college": "Alabama",
+  "draftInfo": "2016 NFL Draft - 2nd round, 49th overall by Seattle",
+  "season2025Stats": {
+    "soloTackles": 11,
+    "sacks": 2.5,
+    "forcedFumbles": 0,
+    "interceptions": 0
+  },
+  "careerHighlights": [
+    "Career-high 54 tackles (27 solo) in 2023",
+    "10.5 sacks in 2018 (3rd-most by DT in franchise history)",
+    "50th player in franchise history to play in 100 games as a Seahawk",
+    "10 years of NFL experience"
+  ]
+}

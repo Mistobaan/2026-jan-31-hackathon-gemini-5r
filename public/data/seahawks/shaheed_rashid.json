@@ -1,0 +1,23 @@
+{
+  "fullName": "Rashid Shaheed",
+  "position": "Wide Receiver",
+  "jerseyNumber": 22,
+  "height": "6-0",
+  "weight": 180,
+  "age": 27,
+  "birthdate": "August 31, 1998",
+  "experience": 4,
+  "college": "Weber State",
+  "season2025Stats": {
+    "receptions": 59,
+    "receivingYards": 687,
+    "average": 11.64,
+    "touchdowns": 2
+  },
+  "careerHighlights": [
+    "Pro Bowl honors as return specialist in 2023",
+    "Associated Press first-team All-Pro punt returner in 2023",
+    "Acquired via trade from New Orleans Saints on November 4, 2025",
+    "Among four in franchise history to record both kickoff and punt return TDs in single season"
+  ]
+}

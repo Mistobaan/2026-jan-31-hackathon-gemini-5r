@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.nfl.com)",
+      "WebFetch(domain:www.seahawks.com)",
+      "WebFetch(domain:www.patriots.com)",
+      "Bash(curl:*)",
+      "Bash(file:*)",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:fal.ai)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}

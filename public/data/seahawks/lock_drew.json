@@ -1,0 +1,23 @@
+{
+  "fullName": "Drew Lock",
+  "position": "Quarterback",
+  "jerseyNumber": 2,
+  "height": "6-4",
+  "weight": 228,
+  "age": 29,
+  "birthdate": "November 10, 1996",
+  "experience": 7,
+  "college": "Missouri",
+  "season2025Stats": {
+    "touchdowns": 0,
+    "interceptions": 0,
+    "passingYards": 15,
+    "rating": 78.47
+  },
+  "careerHighlights": [
+    "Matched John Elway for most wins by rookie QB in Denver history (4-1)",
+    "Career-high passer rating of 155.3 in 2024 with Giants",
+    "5th player in NFL history to reach 155.3+ rating with 300+ yards and 4+ TDs in single game",
+    "Signed with Seattle as free agent on April 15, 2025"
+  ]
+}

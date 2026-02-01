@@ -1,0 +1,29 @@
+{
+  "firstName": "Drake",
+  "lastName": "Maye",
+  "fullName": "Drake Maye",
+  "position": "QB",
+  "number": 10,
+  "height": "76 inches",
+  "heightFormatted": "6'4\"",
+  "weight": "225 lbs",
+  "age": 22,
+  "experience": "2 years",
+  "college": "North Carolina",
+  "draftInfo": "2024 NFL Draft, Round 1, Pick 3",
+  "team": "New England Patriots",
+  "season": 2025,
+  "stats": {
+    "passerRating": 113.5,
+    "completionPercentage": 72,
+    "totalOffense": "4,643 yards"
+  },
+  "accolades": [
+    "2025 Pro Bowl",
+    "2025 Bert Bell Award Winner",
+    "Team Captain (2025)",
+    "Led league in passer rating (113.5)",
+    "Led league in completion percentage (72%)",
+    "Super Bowl LX Appearance"
+  ]
+}

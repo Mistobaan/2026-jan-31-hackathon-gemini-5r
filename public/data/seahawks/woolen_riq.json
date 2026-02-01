@@ -1,0 +1,25 @@
+{
+  "fullName": "Riq Woolen",
+  "position": "Cornerback",
+  "jerseyNumber": 27,
+  "height": "6-4",
+  "weight": 210,
+  "age": 26,
+  "birthdate": "May 2, 1999",
+  "experience": 4,
+  "college": "UTSA",
+  "draftInfo": "2022 NFL Draft - 5th round, 153rd overall",
+  "season2025Stats": {
+    "soloTackles": 32,
+    "sacks": 0,
+    "forcedFumbles": 0,
+    "interceptions": 1
+  },
+  "careerHighlights": [
+    "2022 NFC Pro Bowl selection as rookie",
+    "Tied for 1st in NFL with 6 interceptions as rookie",
+    "Most interceptions by rookie in franchise history",
+    "12 career interceptions through 64 games",
+    "Ranked 91st in NFL Players' Top 100 list for 2023-24 season"
+  ]
+}

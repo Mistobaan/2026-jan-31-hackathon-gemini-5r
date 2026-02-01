@@ -1,0 +1,18 @@
+{
+  "firstName": "Christian",
+  "lastName": "Barmore",
+  "fullName": "Christian Barmore",
+  "position": "DT",
+  "number": 90,
+  "height": "77 inches",
+  "heightFormatted": "6'5\"",
+  "weight": "315 lbs",
+  "age": 26,
+  "experience": "5 years",
+  "college": "Alabama",
+  "draftInfo": "2021 NFL Draft, Round 2",
+  "team": "New England Patriots",
+  "season": 2025,
+  "contractInfo": "4-year, $92 million extension (signed April 2024)",
+  "notes": "Diagnosed with blood clots in July 2024; activated November 16, 2024"
+}

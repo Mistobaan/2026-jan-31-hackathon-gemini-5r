@@ -1,72 +1,75 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import type { Team, Player } from "@/lib/teams-data"
-import { TeamSelection } from "@/components/team-selection"
-import { PlayerSelection } from "@/components/player-selection"
-import { SelfieUpload } from "@/components/selfie-upload"
-import { ImageGenerator } from "@/components/image-generator"
-import { Stepper } from "@/components/stepper"
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import type { Team, Player } from "@/lib/teams-data";
+import { TeamSelection } from "@/components/team-selection";
+import { PlayerSelection } from "@/components/player-selection";
+import { SelfieUpload } from "@/components/selfie-upload";
+import { Stepper } from "@/components/stepper";
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 
-const STEPS = ["Select Team", "Choose Players", "Upload Selfie", "Generate"]
+const STEPS = ["Select Team", "Choose Players", "Upload Selfie"];
 
 export default function NFLFanExperience() {
-  const [currentStep, setCurrentStep] = useState(0)
-  const [selectedTeam, setSelectedTeam] = useState<Team | null>(null)
-  const [selectedPlayers, setSelectedPlayers] = useState<Player[]>([])
-  const [selfie, setSelfie] = useState<string | null>(null)
+  const router = useRouter();
+  const [currentStep, setCurrentStep] = useState(0);
+  const [selectedTeam, setSelectedTeam] = useState<Team | null>(null);
+  const [selectedPlayers, setSelectedPlayers] = useState<Player[]>([]);
+  const [selfie, setSelfie] = useState<string | null>(null);
+  const [isUploading, setIsUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
 
   const handleSelectTeam = (team: Team) => {
     if (selectedTeam?.id !== team.id) {
-      setSelectedPlayers([])
+      setSelectedPlayers([]);
     }
-    setSelectedTeam(team)
-  }
+    setSelectedTeam(team);
+  };
 
   const handleTogglePlayer = (player: Player) => {
     setSelectedPlayers((prev) => {
-      const isSelected = prev.some((p) => p.id === player.id)
+      const isSelected = prev.some((p) => p.id === player.id);
       if (isSelected) {
-        return prev.filter((p) => p.id !== player.id)
+        return prev.filter((p) => p.id !== player.id);
       }
-      if (prev.length >= 3) return prev
-      return [...prev, player]
-    })
-  }
+      if (prev.length >= 3) return prev;
+      return [...prev, player];
+    });
+  };
 
   const handleReset = () => {
-    setCurrentStep(0)
-    setSelectedTeam(null)
-    setSelectedPlayers([])
-    setSelfie(null)
-  }
+    setCurrentStep(0);
+    setSelectedTeam(null);
+    setSelectedPlayers([]);
+    setSelfie(null);
+  };
 
   const canProceed = () => {
     switch (currentStep) {
       case 0:
-        return selectedTeam !== null
+        return selectedTeam !== null;
       case 1:
-        return selectedPlayers.length > 0
+        return selectedPlayers.length > 0;
       case 2:
-        return selfie !== null
+        return selfie !== null;
       default:
-        return false
+        return false;
     }
-  }
+  };
 
   const handleNext = () => {
     if (canProceed() && currentStep < STEPS.length - 1) {
-      setCurrentStep((prev) => prev + 1)
+      setCurrentStep((prev) => prev + 1);
     }
-  }
+  };
 
   const handleBack = () => {
     if (currentStep > 0) {
-      setCurrentStep((prev) => prev - 1)
+      setCurrentStep((prev) => prev - 1);
     }
-  }
+  };
 
   return (
     <main className="min-h-screen bg-background">
@@ -75,9 +78,13 @@ export default function NFLFanExperience() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-center gap-3">
             <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">N</span>
+              <span className="text-primary-foreground font-bold text-lg">
+                N
+              </span>
             </div>
-            <h1 className="text-xl font-bold text-foreground">NFL Fan Experience</h1>
+            <h1 className="text-xl font-bold text-foreground">
+              NFL Fan Experience
+            </h1>
           </div>
         </div>
       </header>
@@ -106,30 +113,84 @@ export default function NFLFanExperience() {
           {currentStep === 2 && (
             <SelfieUpload selfie={selfie} onSelfieChange={setSelfie} />
           )}
-
-          {currentStep === 3 && selectedTeam && selfie && (
-            <ImageGenerator
-              team={selectedTeam}
-              selectedPlayers={selectedPlayers}
-              selfie={selfie}
-              onReset={handleReset}
-            />
-          )}
         </div>
 
+        {/* Error message */}
+        {uploadError && (
+          <div className="mt-4 p-4 bg-destructive/10 border border-destructive rounded-lg text-center max-w-md mx-auto">
+            <p className="text-destructive text-sm">{uploadError}</p>
+          </div>
+        )}
+
         {/* Navigation */}
-        {currentStep < 3 && (
-          <div className="mt-12 flex items-center justify-center gap-4 max-w-md mx-auto">
+        <div className="mt-12 flex items-center justify-center gap-4 max-w-md mx-auto">
+          <Button
+            variant="outline"
+            size="lg"
+            className="flex-1 gap-2 bg-transparent"
+            onClick={handleBack}
+            disabled={currentStep === 0 || isUploading}
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Back
+          </Button>
+
+          {currentStep === 2 && selfie ? (
+            // Generate button - uploads selfie and redirects to session
             <Button
-              variant="outline"
               size="lg"
-              className="flex-1 gap-2 bg-transparent"
-              onClick={handleBack}
-              disabled={currentStep === 0}
+              className="flex-1 gap-2"
+              disabled={isUploading}
+              onClick={async () => {
+                if (!selfie || !selectedTeam) return;
+
+                setIsUploading(true);
+                setUploadError(null);
+
+                try {
+                  // Upload selfie and get MD5-based session ID
+                  const response = await fetch("/api/storage/upload", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      assetType: "selfie",
+                      dataUrl: selfie,
+                      teamId: selectedTeam.id,
+                      playerIds: selectedPlayers.map((p) => p.id),
+                    }),
+                  });
+
+                  if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || "Upload failed");
+                  }
+
+                  const { sessionId } = await response.json();
+
+                  // Redirect to session page
+                  router.push(`/session/${sessionId}`);
+                } catch (error) {
+                  console.error("Upload error:", error);
+                  setUploadError(
+                    error instanceof Error ? error.message : "Upload failed",
+                  );
+                  setIsUploading(false);
+                }
+              }}
             >
-              <ChevronLeft className="h-4 w-4" />
-              Back
+              {isUploading ? (
+                <>
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                  Uploading...
+                </>
+              ) : (
+                <>
+                  Generate
+                  <ChevronRight className="h-4 w-4" />
+                </>
+              )}
             </Button>
+          ) : (
             <Button
               size="lg"
               className="flex-1 gap-2"
@@ -139,8 +200,8 @@ export default function NFLFanExperience() {
               Next
               <ChevronRight className="h-4 w-4" />
             </Button>
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       {/* Footer */}
@@ -152,5 +213,5 @@ export default function NFLFanExperience() {
         </div>
       </footer>
     </main>
-  )
+  );
 }

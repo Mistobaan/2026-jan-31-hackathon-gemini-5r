@@ -1,0 +1,17 @@
+{
+  "firstName": "Kyle",
+  "lastName": "Dugger",
+  "fullName": "Kyle Dugger",
+  "position": "SAF",
+  "number": 23,
+  "height": "73 inches",
+  "heightFormatted": "6'1\"",
+  "weight": "220 lbs",
+  "age": 28,
+  "experience": "6 years",
+  "college": "Lenoir-Rhyne",
+  "draftInfo": "2020 NFL Draft, Round 2, Pick 37",
+  "team": "New England Patriots",
+  "season": 2025,
+  "notes": "Division II star who became a key defensive piece for the Patriots"
+}

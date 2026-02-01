@@ -1,0 +1,23 @@
+{
+  "fullName": "Jaxon Smith-Njigba",
+  "position": "Wide Receiver",
+  "jerseyNumber": 11,
+  "height": "6-0",
+  "weight": 197,
+  "age": 23,
+  "birthdate": "February 14, 2002",
+  "experience": 3,
+  "college": "Ohio State",
+  "draftInfo": "2023 NFL Draft - 1st round, 20th overall",
+  "season2025Stats": {
+    "receptions": 119,
+    "receivingYards": 1793,
+    "average": 15.07,
+    "touchdowns": 10
+  },
+  "careerHighlights": [
+    "Led NFL in receiving yards through 2025 regular season",
+    "8th player in NFL history with 150 receptions, 1,700 yards, and 10 TDs before 23rd birthday",
+    "Elite receiver performance in 2025 season"
+  ]
+}

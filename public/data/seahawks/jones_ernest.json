@@ -1,0 +1,24 @@
+{
+  "fullName": "Ernest Jones IV",
+  "position": "Linebacker",
+  "jerseyNumber": 13,
+  "height": "6-2",
+  "weight": 230,
+  "age": 26,
+  "birthdate": "November 22, 1999",
+  "experience": 5,
+  "college": "South Carolina",
+  "draftInfo": "2021 NFL Draft - 3rd round, 103rd overall by LA Rams",
+  "season2025Stats": {
+    "soloTackles": 58,
+    "sacks": 0.5,
+    "forcedFumbles": 0,
+    "interceptions": 5
+  },
+  "careerHighlights": [
+    "Second-team All-Pro honors in 2025",
+    "5 interceptions in 2025 season",
+    "85-yard pick-six against Minnesota",
+    "Joined Seattle on October 24, 2024"
+  ]
+}

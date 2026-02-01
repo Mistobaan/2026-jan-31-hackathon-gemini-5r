@@ -1,0 +1,27 @@
+{
+  "firstName": "Stefon",
+  "lastName": "Diggs",
+  "fullName": "Stefon Diggs",
+  "position": "WR",
+  "number": 8,
+  "height": "72 inches",
+  "heightFormatted": "6'0\"",
+  "weight": "191 lbs",
+  "age": 31,
+  "experience": "11 years",
+  "college": "Maryland",
+  "team": "New England Patriots",
+  "season": 2025,
+  "contractInfo": "3-year, $69 million (signed March 28, 2025)",
+  "stats": {
+    "receptions": 85,
+    "receivingYards": 1013,
+    "touchdowns": 4
+  },
+  "accolades": [
+    "2025 Pro Bowl",
+    "First Patriots receiver with 1,000+ yards since Julian Edelman (2019)",
+    "Leading receiver for Patriots (2025)",
+    "Four-time Pro Bowl selection (career)"
+  ]
+}

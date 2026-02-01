@@ -1,0 +1,23 @@
+{
+  "fullName": "Anon Uchenna Nwosu Jr.",
+  "position": "Linebacker",
+  "jerseyNumber": 7,
+  "height": "6-2",
+  "weight": 265,
+  "age": 29,
+  "birthdate": "December 28, 1996",
+  "experience": 8,
+  "college": "USC",
+  "season2025Stats": {
+    "soloTackles": 15,
+    "sacks": 7,
+    "forcedFumbles": 0,
+    "interceptions": 0
+  },
+  "careerHighlights": [
+    "Nominated for 2024 Walter Payton NFL Man of the Year Award",
+    "7 sacks in 2025 season",
+    "8 years of NFL experience",
+    "Strong pass rusher for Seahawks defense"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fullName": "Kenneth Walker III",
+  "position": "Running Back",
+  "jerseyNumber": 9,
+  "height": "5-9",
+  "weight": 211,
+  "age": 25,
+  "birthdate": "October 20, 2000",
+  "experience": 4,
+  "college": "Michigan State",
+  "draftInfo": "2022 NFL Draft - 2nd round, 41st overall",
+  "season2025Stats": {
+    "carries": 221,
+    "rushingYards": 1027,
+    "average": 4.65,
+    "touchdowns": 5
+  },
+  "careerHighlights": [
+    "Ranks tied for 6th in franchise history with 24 rushing touchdowns",
+    "2022 NFL Offensive Rookie of the Year finalist",
+    "First rookie since 2018 to record three consecutive 100-yard rushing games"
+  ]
+}
